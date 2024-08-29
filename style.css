@@ -42,6 +42,7 @@ header .list-items{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-left: 2rem
 }
 
 .list-items li a{
@@ -50,6 +51,12 @@ header .list-items{
 
 header .menu{
     justify-content: space-between;
+}
+
+h1#title-logo{
+    margin-left: 2rem;
+
+  
 }
 
 .apresentacao{
@@ -175,6 +182,7 @@ header .menu{
     flex-direction: column;
     min-height: 100vh;
     padding-top: 50px;
+	
 }
 
 #planos h2{
@@ -259,6 +267,7 @@ footer .footer{
 @media(max-width: 992px){
     .flex-container{
         flex-direction: column;
+        margin-left: 2rem;
     }
 
     .apresentacao{
@@ -295,9 +304,17 @@ footer .footer{
     }
     .list.planos .item-plano{
         max-width: 90%;
-    
         width: 100%;
         margin-bottom: 20px;
        
+    }
+
+   .item-plano{
+        margin: 2rem 0 2rem 0;
+    }
+
+
+    .footer{
+         width: 100%;
     }
 }
