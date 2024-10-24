@@ -298,11 +298,14 @@ footer .footer{
 
     .list-servicos{
         flex-direction: column; 
-        margin: auto;   
+        
      }
 
-    .item-servicos img{
-        width: 70%;
+    .item-servicos {
+        width: 40%;
+    
+        margin: auto ;
+       
        
     }
 
